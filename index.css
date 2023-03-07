@@ -1,0 +1,52 @@
+.bg-conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification-container {
+  min-width: 250px;
+  width: 70%;
+  max-width: 300px;
+}
+
+.card-conatiner {
+  background-color: #0b69ff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.bg-primary {
+  background-color: #0b69ff;
+}
+
+.bg-success {
+  background-color: #2dca73;
+}
+
+.bg-warning {
+  background-color: #ffb800;
+}
+
+.bg-danger {
+  background-color: #ff0b37;
+}
+
+.img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.card-msg {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #ffffff;
+}
